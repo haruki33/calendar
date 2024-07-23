@@ -363,7 +363,6 @@ body {
 }
 
 .todos .todo {
-  /* background-color: #373c4f; */
   position: relative;
   width: 95%;
   min-height: 70px;
