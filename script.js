@@ -9,6 +9,7 @@ const dateInput = document.querySelector(".date-input");
 const eventDay = document.querySelector(".event-day");
 const eventDate = document.querySelector(".event-date");
 const eventContainer = document.querySelector(".events");
+const event = document.querySelector(".event");
 const AddeventSubmit = document.querySelector(".add-event-btn");
 
 let today = new Date();
@@ -420,3 +421,9 @@ function getEvents() {
     eventsArr.push(...JSON.parse(localStorage.getItem("events")));
   }
 }
+
+$(document).ready(function () {
+  $(".event").on("click", function () {
+    console.log("clicked");
+  });
+});

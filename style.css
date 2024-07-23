@@ -359,7 +359,7 @@ body {
   display: flex;
   flex-direction: column; /*並べる方法は縦*/
   padding: 4px;
-  border-top: solid var(--primary-clr);
+  border-top: solid #878787;
 }
 
 .todos .todo {
